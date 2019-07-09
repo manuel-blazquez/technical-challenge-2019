@@ -1,0 +1,33 @@
+{
+  "name": "technical-challenge-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Manuel Blázquez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^6.1.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "lodash.where": "^3.1.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
